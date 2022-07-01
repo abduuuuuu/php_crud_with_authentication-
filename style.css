@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+form{
+    background-color: green;
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 15%;
+    padding: 50px;
+    padding-right: 5px;
+    border-radius: 5px;
+    transition: .3s;
+}
+.foot{
+    margin-left: 25%;
+}
+.footi{
+    margin-left: 30%;
+}
+form h1{
+    margin-left: 35%;
+    margin-bottom: 5%;
+}
+form .input{
+    margin-bottom: 20px;
+}
+form .input span{
+    font-size: 20px;
+}
+
+form .input input{
+    width: 60%;
+    padding: 7px;
+    outline: none;
+    border-radius: 5px;
+}
+.btn{
+    width: 100px;
+    margin-left: 35%;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s;
+
+}
+.btn:hover{
+    transition: .3s;
+    background-color: green;
+    color: white;
+}
+.nav{
+    display: flex;
+    height: 8vh;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid whitesmoke;
+}
+.nav .logo{
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: brown;
+
+}
+.nav ul li{
+    display: inline-block;
+    margin-left: 30px;
+}
+.nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+}
+.nav ul li a:hover{
+    color: brown;
+}
+nav a .btn2{
+    width: 80px;
+    height: 40px;
+    border: 2px solid brown;
+    background-color: white;
+    border-radius: 2px;
+    font-size: 20px;
+    transition: .2s;
+    cursor: pointer;
+}
+ nav a .btn2:hover{
+    background-color: brown;
+    color: whitesmoke;
+    transition: .2s;
+    cursor: pointer;
+}
+.content{
+    text-align: center;
+}
+.contento{
+   text-align: center;
+}
+.content h1{
+    margin-top: 10%;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.content h2{
+    color: brown;
+    
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.content p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.content1{
+    margin-top: -10%;
+}
